@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Heebo&display=swap');
+
+body{
+font-family: 'Catamaran', sans-serif;
+font-family: 'Heebo', sans-serif;
+
+}
+ 
+#hero{
+	background-color: #282932;
+}
+
+#hero .title{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 60px;
+	font-weight: 800;
+	padding-top: 20%;
+}
+
+#hero h2{
+	color: #f7b614;
+	text-transform: capitalize;
+	font-size: 60px;
+	font-weight: 800;
+}
+
+.btn{
+	color: #282932;
+	background-color: #f7b614;
+	border-color: #f7b614;
+	border-width: medium;
+	padding: 10px 40px;
+	font-weight: 400;
+	border-radius: 40px;
+}
+
+#contact-form .btn{
+	color: #fff;
+	background-color: #282932;
+	border-color: #282932;
+	margin-left: -35%;
+	padding: 10% 20%;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+	 font-size: 2.5vw;
+	color:#282932;
+}
+#hambu{
+	text-align:center;
+	padding: 8%;
+}
+.tit{
+	color: #f7b614;
+	font-size:14px;
+}
+.goods{
+	color:#282932;
+	font-weight:bolder;
+}
+.product{
+	color:#f7b614;
+	font-size:12px;
+	font-weight:bolder;
+}
+.product2{
+	padding-left:5%;
+	padding-right:5%;
+	font-size:12px;
+	
+}
+.bt{
+	font-size:16px;
+	color:#282932;
+	font-weight:bolder;
+	
+}
+.bp{
+	font-size:14px;
+	color:#282932;
+	font-weight:bolder;
+	
+}
+.cart{
+	background-color:#f7b614;
+	border-color:transparent;
+	border-radius:20px;
+	padding-left:10%;
+	padding-right:10%;
+	color:#282932;
+	font-weight:bolder;
+	font-size:12px;
+	margin-top:5%;
+}
+
+#contact-form{
+	text-align: left;
+	background-color: #f7b614;
+	padding: 5%;
+	color: #fff;
+}
+
+#contact-form h3{
+	font-size: 14px;
+}
+
+#contact-form h2{
+	font-size: 20px;
+	color: #282932;
+}
+
+body{
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
